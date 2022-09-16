@@ -129,13 +129,7 @@ img {
  ************************************************/
 
 
- @media screen  and ( max-width: 768px ) {
 
- .container{
-    width: 100%;
- }
-    
- }
 
 
  @media screen  and ( max-width: 480px ) {
@@ -143,18 +137,71 @@ img {
     .container{
        width: 100%;
     }
+    
 
-    .steps .col{
-        width: 100%;
+
+
+    .col{
+        min-width: 100%;
     }
 
     .row{
         flex-flow: column wrap;
         align-items: center;
     }
+
     
+    
+    .lesson .col{
+        width: 100%;
+        padding-bottom: 15%;
+    }
+
+   
+    .steps {
+        margin: 0;
+    }
+
+    .why-us .text-center{
+        padding: 0 20%;
+        
+    }
+
+    .why-us  ul{
+
+        padding-top: 20%;
+    }
+
+    .why-us  ul li:first-child h3{
+
+        padding-right: 40%;
+    }
+
+    .why-us{
+        margin: 0;
+        padding: 20% 0;
+        background-color: black;
+    }
+
+    .why-us ul li p{
+        padding-right: 10%;
+    }
+
    
 
 
+   
+
     
     }
+
+    @media screen  and ( max-width: 768px ) {
+
+        .container{
+           width: 100%;
+           padding: 0;
+        }
+           
+        }
+
+    
